@@ -1,0 +1,119 @@
+/* Reset the Basics and Set the Vibe */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Clean, modern font - grab it from Google Fonts */
+    background-color: #f5e8d9; /* Warm, creamy vibe */
+    color: #2c1e14; /* Rich, dark coffee text */
+    line-height: 1.6;
+}
+
+/* Header - Make it Pop */
+header {
+    background: linear-gradient(135deg, #e07b39 0%, #d94f1a 100%); /* Spicy gradient */
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deep shadow for that 3D flex */
+}
+
+header h1 {
+    font-size: 3em; /* Big and bold */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text pop */
+}
+
+header p {
+    font-size: 1.3em;
+    max-width: 700px;
+    margin: 15px auto 0;
+    opacity: 0.9;
+}
+
+/* Menu Section - Clean and Tasty */
+.menu-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #e07b39; /* Warm orange to tie it in */
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px; /* Smooth corners */
+    overflow: hidden; /* Keeps it tight */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px 20px;
+    text-align: left;
+}
+
+th {
+    background: #f9e1c7; /* Light peach for headers */
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: #2c1e14;
+}
+
+td {
+    border-bottom: 1px solid #ececec; /* Subtle line */
+}
+
+tr:nth-child(even) {
+    background: #fafafa; /* Light gray for contrast */
+}
+
+tr:hover {
+    background: #ffe8d6; /* Warm hover effect */
+    transition: background 0.3s ease; /* Smooth fade */
+}
+
+/* Contact Section - Keep it Fresh */
+.contact {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.contact a {
+    color: #d94f1a; /* Bold orange links */
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #d94f1a; /* Underline with style */
+    transition: all 0.3s ease;
+}
+
+.contact a:hover {
+    color: #e07b39;
+    border-color: #e07b39;
+}
+
+/* Footer - Seal the Deal */
+footer {
+    background: #2c1e14; /* Dark coffee brown */
+    color: #fff
